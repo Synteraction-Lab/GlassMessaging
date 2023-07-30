@@ -1,7 +1,23 @@
 # Add specific files/folders related to your project
 
 
+GlassMessagingPython/data/
+GlassMessagingPython/__pycache__/
+GlassMessagingPython/_sequence*
+GlassMessagingPython/telegram_token.json
 
+
+GlassMessagingUnity/[Ll]ibrary/
+GlassMessagingUnity/[Tt]emp/
+GlassMessagingUnity/[Oo]bj/
+GlassMessagingUnity/[Bb]uild/
+GlassMessagingUnity/[Bb]uilds/
+GlassMessagingUnity/[Aa]ssets/Samples/
+GlassMessagingUnity/[Ll]ogs/
+GlassMessagingUnity/[Uu]ser[Ss]ettings/
+GlassMessagingUnity/[Aa]ssets/**/*.meta
+GlassMessagingUnity/[Rr]ecordings/
+GlassMessagingUnity/[Mm]emoryCaptures/
 
 # System Files
 .DS_Store
