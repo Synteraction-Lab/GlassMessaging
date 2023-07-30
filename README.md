@@ -5,18 +5,29 @@ A messaging application for smart glasses (a clone of private repos [HeadsUpComm
 ## Publications
 - [GlassMessaging: Towards Ubiquitous Messaging Using OHMDs](https://doi.org/10.1145/3610931), IMWUT'23 [**[PDF]**](IMWUT2023_GlassMessaging.pdf) (camera ready)
 ```
-<Bibtext>
-
+@article{janaka_glassmessaging_2023,
+	title = {{GlassMessaging}: {Towards} {Ubiquitous} {Messaging} {Using} {OHMDs}},
+	volume = {7},
+	shorttitle = {{GlassMessaging}},
+	url = {https://doi.org/10.1145/3610931},
+	doi = {10.1145/3610931},
+	language = {en},
+	number = {3},
+	journal = {Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+	author = {Janaka, Nuwan and Gao, Jie and Zhu, Lin and Zhao, Shengdong and Lyu, Lan and Xu, Peisen and Nabokow, Maximilian and Wang, Silang and Ong, Yanch},
+	month = sep,
+	year = {2023},
+}
 ```
 
 
 ## Contents
-- This repo contains the messaging server implementation using Python ([GlassMessagingPython](GlassMessagingPython)) and UI implementation using Unity([GlassMessagingUnity](GlassMessagingUnity))
+- This repo contains the messaging server implementation using Python ([GlassMessagingPython](GlassMessagingPython)) and UI implementation using Unity ([GlassMessagingUnity](GlassMessagingUnity))
 
 ## Requirements
 - Windows 10/11 to build the Unity app
-- Unity2021.3.6f1 or higher
-- Python 3.8 or higher
+- Unity 2021.3.6f1 or higher
+- Python 3.7 or higher
 - See the individual folders for requirements and installations
 
 
