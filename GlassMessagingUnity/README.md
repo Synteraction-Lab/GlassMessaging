@@ -56,3 +56,6 @@ Unity project for the GlassMessagingUnity
 	- NOTE: both the device (e.g., HoloLens2) and server computer should be connected via a PRIVATE network (e.g., phone hotspot)
 - run the [GlassMessagingPython](../GlassMessagingPython) to create a socket connection
 
+## Contact person
+- [Nuwan Janaka](https://nuwanjanaka.info/) ([In](https://www.linkedin.com/in/nuwan-janaka/))
+- [Peisen Xu](https://www.nus-hci.org/our-team/)

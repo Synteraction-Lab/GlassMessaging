@@ -20,6 +20,10 @@ A messaging application for smart glasses (a clone of private repos [HeadsUpComm
 }
 ```
 
+- Video
+
+GlassMessaging_video.mp4
+
 
 ## Contents
 - This repo contains the messaging server implementation using Python ([GlassMessagingPython](GlassMessagingPython)) and UI implementation using Unity ([GlassMessagingUnity](GlassMessagingUnity))
@@ -33,7 +37,6 @@ A messaging application for smart glasses (a clone of private repos [HeadsUpComm
 
 ## Contact person
 - [Nuwan Janaka](https://nuwanjanaka.info/) ([In](https://www.linkedin.com/in/nuwan-janaka/))
-- [Peisen Xu](https://www.nus-hci.org/our-team/)
 
 
 ## Project links (private access only)
