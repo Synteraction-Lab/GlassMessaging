@@ -21,8 +21,9 @@ A messaging application for smart glasses (a clone of private repos [HeadsUpComm
 ```
 
 - Video
+  [![GlassMessaging.jpg)](GlassMessaging_video.mp4)
 
-GlassMessaging_video.mp4
+
 
 
 ## Contents
