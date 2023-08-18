@@ -5,6 +5,7 @@ Unity project for the GlassMessagingUnity
 - Unity2021.3.6f1 or higher
 
 ## Setup
+- Make sure the `New HL2 MixedReality ToolkitConfigurationProfile` is selected in 'MixedRealityToolkit' (in the 'MRTKScene' scene)
 - On first-time importing into Unity, choose ignore compilation error, and make the following changes to the code. 
   - Look for **WindowsDictationInputProvider.cs**. Change 392-408 to followings:
       - ```cs
@@ -27,7 +28,7 @@ Unity project for the GlassMessagingUnity
           ResetInteraction();
           UpdateContent();
       }
-  - Look for MRTKTMPInputField.cs. Add several functions at line 34:
+  - Look for **MRTKTMPInputField.cs** Add several functions at line 34:
     - ```cs
       public bool IsKeyboardActive(){
           return !shouldHideSoftKeyboard && (m_SoftKeyboard != null) && m_SoftKeyboard.active;
