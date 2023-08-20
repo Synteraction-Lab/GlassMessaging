@@ -3,10 +3,13 @@ Unity project for the GlassMessagingUnity
 
 ## Requirements
 - Unity2021.3.6f1 or higher
+- Windows 10/11 PC
+- Add the required [prerequisites for HoloLens development](https://learn.microsoft.com/en-us/training/modules/learn-mrtk-tutorials/1-1-introduction#prerequisites)
 
 ## Setup
 - Make sure the `New HL2 MixedReality ToolkitConfigurationProfile` is selected in 'MixedRealityToolkit' (in the 'MRTKScene' scene)
-- On first-time importing into Unity, choose ignore compilation error, and make the following changes to the code. 
+- Make sure the `Universal Windows Platform` is selected for the build setting. If not, [Switch Build Platform](https://learn.microsoft.com/en-us/training/modules/learn-mrtk-tutorials/1-3-exercise-configure-unity-for-windows-mixed-reality#switch-build-platform) 
+- On first-time importing into Unity, choose to ignore compilation errors and make the following changes to the code. 
   - Look for **WindowsDictationInputProvider.cs**. Change 392-408 to followings:
       - ```cs
         private void DictationRecognizer_DictationComplete(DictationCompletionCause cause){ 
@@ -21,7 +24,7 @@ Unity project for the GlassMessagingUnity
             dictationResult = string.Empty;
             }
         }
-    - This is to make the dictation time out recognized as complete, and keep the original dictation results. 
+    - This is to recognize the dictation timeout as complete and keep the original dictation results. 
   - Look for **ScrollingObjectCollection.cs**. Add function ResetMaintainOffset() at line 1996:
     - ```cs
       public void ResetMaintainOffset(){
