@@ -241,7 +241,7 @@ def is_valid_session(participant, session):
     return -4 <= utilities.get_int(session) <= 4
 
 
-_participant = input("Participant (e.g., p1)?")
+_participant = input("Participant (e.g., p0)?")
 _session = input("Session (e.g., 1-4)?")
 
 _record = False
