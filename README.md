@@ -33,7 +33,7 @@ A messaging application for smart glasses (a clone of private repos [HeadsUpComm
 - Unity 2021.3.6f1 or higher
 - Python 3.7 or higher
 - See the individual folders for requirements and installations
-
+- If you encounter any issues, please create a `New Issue`  or contact the following persons
 
 ## Contact person
 - [Nuwan Janaka](https://nuwanjanaka.info/) ([In](https://www.linkedin.com/in/nuwan-janaka/))
