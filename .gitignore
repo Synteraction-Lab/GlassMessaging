@@ -15,9 +15,11 @@ GlassMessagingUnity/[Bb]uilds/
 GlassMessagingUnity/[Aa]ssets/Samples/
 GlassMessagingUnity/[Ll]ogs/
 GlassMessagingUnity/[Uu]ser[Ss]ettings/
-GlassMessagingUnity/[Aa]ssets/**/*.meta
 GlassMessagingUnity/[Rr]ecordings/
 GlassMessagingUnity/[Mm]emoryCaptures/
+GlassMessagingUnity/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+GlassMessagingUnity/[Aa]ssets/[Ss]treamingAssets/aa.meta
+GlassMessagingUnity/[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # System Files
 .DS_Store

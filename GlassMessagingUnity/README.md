@@ -10,7 +10,7 @@ Unity project for the GlassMessagingUnity
 - Make sure the `New HL2 MixedReality ToolkitConfigurationProfile` is selected in 'MixedRealityToolkit' (in the 'MRTKScene' scene)
 - Make sure the `Universal Windows Platform` is selected for the build setting. If not, [Switch Build Platform](https://learn.microsoft.com/en-us/training/modules/learn-mrtk-tutorials/1-3-exercise-configure-unity-for-windows-mixed-reality#switch-build-platform) 
 - On first-time importing into Unity, choose to ignore compilation errors and make the following changes to the code. 
-  - Look for **WindowsDictationInputProvider.cs**. Change 392-408 to followings:
+  - Look for **WindowsDictationInputProvider.cs**. Change 392-408 to followings: [Hint: To find the file, click in the `Project` tab and search 'WindowsDictationInputProvider' (without file extension) while selecting `All` instead of `In Assets`]
       - ```cs
         private void DictationRecognizer_DictationComplete(DictationCompletionCause cause){ 
             using (DictationCompletePerfMarker.Auto()){
