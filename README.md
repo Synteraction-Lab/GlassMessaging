@@ -19,6 +19,7 @@ A messaging application for smart glasses (a clone of private repos [HeadsUpComm
 	year = {2023},
 }
 ```
+- [GlassMessaging: Supporting Messaging Needs During Daily Activities Using OST-HMDs](https://doi.org/10.1145/3607822.3618016), SUI'23 Demo [**[PDF]**](SUI2023_Demo_GlassMessaging.pdf) (camera ready), [Poster](SUI2023_Poster.pdf)
 
 - [![Video](GlassMessaging.jpg)](GlassMessaging_video.mp4)
 
