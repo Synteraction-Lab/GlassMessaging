@@ -5,6 +5,7 @@ Unity project for the GlassMessagingUnity
 - Unity2021.3.6f1 or higher
 - Windows 10/11 PC
 - Add the required [prerequisites for HoloLens development](https://learn.microsoft.com/en-us/training/modules/learn-mrtk-tutorials/1-1-introduction#prerequisites)
+- Make sure there is an active internet connection and online speech recognition service ( "Setting - > Privacy -> Speech "-> Turn on "Online speech recognition" and "Speech recognition") in HoloLens for the voice dictation.
 
 ## Setup
 - Make sure the `Universal Windows Platform` is selected for the build setting. If not, [Switch Build Platform](https://learn.microsoft.com/en-us/training/modules/learn-mrtk-tutorials/1-3-exercise-configure-unity-for-windows-mixed-reality#switch-build-platform) 
